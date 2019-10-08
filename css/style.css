@@ -18,7 +18,6 @@ article{
     justify-content: space-around;
     width: 1120px;
     background-color: #e2e7ec;
-    margin-top: 30px;
 }
 .main-col{
     display: flex;
@@ -29,12 +28,14 @@ article{
     width: 740px;
     height: 540px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .col{
     display: flex;
     width: 360px;
     height: 540px;
     margin-bottom: 20px;
+    margin-top: 30px;
     background-color: #fff;
     flex-direction: column;
     align-content: space-between;
