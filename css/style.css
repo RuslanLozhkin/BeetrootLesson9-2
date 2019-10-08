@@ -15,35 +15,34 @@ body{
 article{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1120px;
     background-color: #e2e7ec;
+    margin-top: 30px;
 }
 .main-col{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     background: url(img1.png);
-    background-size: 100%;
+    background-size: 100% 110%;
     width: 740px;
     height: 540px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    padding-bottom: 20px;
 }
 .col{
     display: flex;
     width: 360px;
     height: 540px;
     margin-bottom: 20px;
-    margin-top: 30px;
+    padding-bottom: 20px;
     background-color: #fff;
     flex-direction: column;
     align-content: space-between;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .title-img{
     display: flex;
-    margin-top: -30px;
 }
 .date{
     display: flex;
