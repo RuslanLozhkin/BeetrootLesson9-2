@@ -1,0 +1,93 @@
+html,
+body{
+    min-height: 100%;
+    height: 100%;
+    font-family: 'hans_kendrickregular'; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e2e7ec;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 1120px;
+    background-color: #e2e7ec;
+    margin-top: 30px;
+}
+.main-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url(img1.png);
+    background-size: 100%;
+    width: 740px;
+    height: 540px;
+    margin-bottom: 20px;
+}
+.col{
+    display: flex;
+    width: 360px;
+    height: 540px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+}
+.title-img{
+    display: flex;
+    margin-top: -30px;
+}
+.date{
+    display: flex;
+    margin-left: 28px;
+    margin-right: 28px;
+    color: #818181;
+    font-weight: bold;
+}
+.title{
+    display: flex;
+    margin-left: 28px;
+    margin-right: 28px;
+    font-weight: bold;
+    color: #1d1d1d;
+}
+.main-col div.date{
+    margin-bottom: 20px;
+}
+.main-title{
+    margin-left: 28px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.face{
+    display: flex;
+    margin-left: 28px;
+    text-align: left;
+}
+.new-content{
+    display: flex;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-start;
+}
+.new-content img{
+    display: flex;
+    margin-right: 10px;
+}
+.new-content span{
+    display: flex;
+    align-self: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #99a5b0;
+}
